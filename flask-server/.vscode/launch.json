@@ -1,0 +1,23 @@
+{
+    "name": "Python: Flask",
+    "type": "python",
+    "request": "launch",
+    "module": "flask",
+    "env": {
+      "FLASK_APP": "server.py",
+      "FLASK_ENV": "development",
+      "FLASK_DEBUG": "0"
+    },
+    "args": [
+      "run",
+      "-Xfrozen_modules=off",
+      "--no-debugger",
+      "--no-reload",
+      "--port", "4000"
+    ],
+    "jinja": true,
+    "configurations": [
+
+    ]
+  }
+  
